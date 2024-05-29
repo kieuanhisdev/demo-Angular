@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-nav-bar',
+  selector: 'app-centre',
   standalone: true,
   imports: [RouterModule],
-  templateUrl: './nav-bar.component.html',
-  styleUrl: './nav-bar.component.css'
+  templateUrl: './centre.component.html',
+  styleUrl: './centre.component.css'
 })
-export class NavBarComponent {
+export class CentreComponent {
 
 }

@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-nav-bar',
+  selector: 'app-user-layout',
   standalone: true,
   imports: [RouterModule],
-  templateUrl: './nav-bar.component.html',
-  styleUrl: './nav-bar.component.css'
+  templateUrl: './user-layout.component.html',
+  styleUrl: './user-layout.component.css'
 })
-export class NavBarComponent {
+export class UserLayoutComponent {
 
 }
