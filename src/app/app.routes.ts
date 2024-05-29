@@ -7,7 +7,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { ProfileComponent } from './components/profile/profile.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: '/centre', pathMatch: 'full' }, // Redirect tới /login
+    // { path: '', redirectTo: '/centre', pathMatch: 'full' }, // Redirect tới /login
     { path: 'login', component: LoginComponent },
     {path: 'register', component: RegisterComponent},
     {path: 'centre', component: CentreComponent },
