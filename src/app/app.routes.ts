@@ -8,12 +8,14 @@ import { ProfileComponent } from './components/profile/profile.component';
 
 export const routes: Routes = [
     // { path: '', redirectTo: '/centre', pathMatch: 'full' }, // Redirect tới /login
-    { path: 'login', component: LoginComponent },
+    { path: '', component: LoginComponent },
     {path: 'register', component: RegisterComponent},
-    {path: 'centre', component: CentreComponent },
-    {path: 'user-layout', component: UserLayoutComponent},
-    {path: 'nav-bar', component: NavBarComponent},
-    {path: 'profile', component:ProfileComponent}
+    { path: 'login', component: LoginComponent },
+
+    // {path: 'centre', component: CentreComponent },
+    // {path: 'user-layout', component: UserLayoutComponent},
+    // {path: 'nav-bar', component: NavBarComponent},
+    // {path: 'profile', component:ProfileComponent}
     
     
     
